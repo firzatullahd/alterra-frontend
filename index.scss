@@ -76,7 +76,6 @@
         grid-area: main;
         text-align: left;
         padding-left: 20px;
-        /* border: 1px solid black; */
         z-index: 3;
         h1 {
             font-size: 70px;
@@ -92,7 +91,6 @@
         grid-area: sub;
         text-align: left;
         padding-left: 20px;
-        /* border: 1px solid black; */
         z-index: 3;
         p {
             font-size: 22px;
@@ -103,7 +101,6 @@
         /* grid item */
         grid-area: image;
         text-align: center;
-        /* border: 1px solid black; */
         z-index: 3;
     }
     .options {
@@ -111,7 +108,6 @@
         grid-area: options;
         text-align: center;
         padding-right: 20px;
-        /* border: 1px solid black; */
         z-index: 3;
         .dots {
             width: 80%;
@@ -183,7 +179,6 @@
         /* grid item */
         grid-area: next;
         text-align: center;
-        /* border: 1px solid black; */
         z-index: 3;
     
     }
@@ -191,7 +186,6 @@
         /* grid item */
         grid-area: action;
         text-align: center;
-        /* border: 1px solid black; */
         z-index: 3;
         .btn-primary {
             color: #FF0073;
