@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alterra Frontend</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="brand">
+        <a href="#">
+          <img src="./img/brand-logo.png" alt="brand-logo" id="logo" />
+          <span>Shoe</span>
+        </a>
+      </div>
+      <div class="navbar">
+        <ul class="nav-items">
+          <li class="nav-item nav-item-active"><a href="#">HOME</a></li>
+          <li class="nav-item"><a href="#">ABOUT US</a></li>
+          <li class="nav-item"><a href="#">SHOP</a></li>
+          <li class="nav-item"><a href="#">CONTACT</a></li>
+          <li class="nav-item">
+            <a href="#"
+              ><img src="./img/search.png" width="24" height="24"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- parent of .hero and .bubbles -->
+    <div class="container">
+      <!-- grid container -->
+      <section class="hero">
+        <div class="main">
+          <!-- split into inside p tag and outside, to create different style of bold and light -->
+          <h1>
+            <p>Are you ready to</p>
+            lead the way
+          </h1>
+        </div>
+        <div class="sub">
+          <p>
+            Mauris porta lectus nulla, non dignissim dolor sollicitudin et. Sed
+            mi tortor, aliquam eget congue a, faucibus sed est
+          </p>
+        </div>
+        <div class="image">
+          <img src="./img/hero-image.png" width="568" height="559" />
+        </div>
+        <div class="next">
+          <a href="#"><img src="./img/next.png" width="70" height="70" /></a>
+        </div>
+        <div class="action">
+          <button class="btn-primary">
+            BUY NOW
+            <img src="./img/next.png" width="24" height="24" />
+          </button>
+        </div>
+        <div class="options">
+          <div class="dots"></div>
+          <ul class="options-items">
+            <li class="options-item options-item-active">
+              <div class="dot color-rose"></div>
+              <a href="#"
+                ><img class="options-item-image" src="./img/shoe-rose.png" />
+              </a>
+              <div class="options-item-description">
+                <p class="product-title">Mauris Porta</p>
+                <p class="product-price">$322.99</p>
+                <div class="add-product">+</div>
+              </div>
+            </li>
+            <li class="options-item">
+              <div class="dot color-turquoise-blue"></div>
+              <a href="#"
+                ><img class="options-item-image" src="./img/shoe-turquoise.png"
+              /></a>
+            </li>
+            <li class="options-item">
+              <div class="dot color-ronchi"></div>
+              <a href="#"
+                ><img class="options-item-image" src="./img/shoe-ronchi.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+      </div>
+    </div>
+  </body>
+</html>
